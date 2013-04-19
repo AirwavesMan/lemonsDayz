@@ -82,7 +82,13 @@ R3F_LOG_CFG_objets_remorquables = R3F_LOG_CFG_objets_remorquables +
 	"LandRover_TK_CIV_EP1",
 	"SkodaRed",
 	"VolhaLimo_TK_CIV_EP1",
-	"HMMWV"
+	"HMMWV_DZ",
+	"MH60S",
+	"HMMWV_M998_crows_M2_DES_EP1",
+	"Policecar",
+	"Mi171Sh_CZ_EP1"
+	"MH6J_DZ",
+	"AH6X_DZ"
 ];
 
 

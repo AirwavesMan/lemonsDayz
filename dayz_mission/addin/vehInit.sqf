@@ -3,7 +3,7 @@ if (isServer) exitwith {};
 waitUntil {sleep 2; count vehicles > 1};
 sleep 10;
 {
-If (typeOf _x in ["UH1H_DZ","Mi17_DZ","MH60S","MH6J_DZ","Mi171Sh_CZ_EP1"]) then
+If (typeOf _x in ["UH1H_DZ","Mi17_DZ","AH6X_DZ","MH60S","MH6J_DZ","Mi171Sh_CZ_EP1"]) then
 {
 nul = _x addAction [("<t color=""#00a6eb"">Lift cargo</t>"),"addin\liftCargo.sqf",["pickup"],10,false,true,"","driver _target == player"];
 };
