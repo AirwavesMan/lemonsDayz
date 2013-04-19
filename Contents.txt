@@ -1,0 +1,11 @@
+//CONTENTS//------------------------
+
+
+Pixels_Addin----------
+//addin
+Pixels_Addin----------
+
+strip vehicals--------
+//removeparts
+strip vehicals--------
+

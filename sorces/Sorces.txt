@@ -1,0 +1,27 @@
+loottables----
+http://opendayz.net/threads/100-custom-loot-tables-tutorial.8474/
+autorefule--
+http://opendayz.net/threads/dayz-chenarus-auto-refuel-all-stations.7056/page-4#post-13533
+SARGE AI Framework
+http://opendayz.net/threads/sarge-ai-framework-public-release.8391/
+bridge
+http://opendayz.net/threads/excelsior-bridge-chernarus.9221/
+Modifying Survivor Spawn Locations
+http://opendayz.net/threads/modifying-survivor-spawn-locations.25/
+remove vehical parts
+http://opendayz.net/threads/remove-parts-from-vehicles-simplified.9227/
+random clothing
+http://opendayz.net/threads/random-clothing-parcels.8423/
+spawning banded
+http://opendayz.net/threads/spawning-banned-vehicles-in-dayz-with-no-rmod-reality-servers.8855/
+basebuilding
+http://opendayz.net/threads/base-building-dayz-1-2-released.8579/
+siphon fuel script
+http://opendayz.net/threads/working-siphon-fuel-script.8541/
+remove clothing
+http://opendayz.net/threads/remove-clothes-from-dead-bodies.8961/
+heli crashes loot
+http://opendayz.net/threads/editing-heli-crashes-1-7-6-1-simplified.9011/
+aimated heli crashes
+http://opendayz.net/threads/animated-helicrashs-0-1-release.9084/
+towing
