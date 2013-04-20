@@ -25,7 +25,17 @@ R3F_LOG_CFG_remorqueurs = R3F_LOG_CFG_remorqueurs +
 	"Ural_CDF",
 	"UralCivil2",
 	"Ural_INS",
-	"MTVR",
+	"UAZ_RU",
+	"hilux1_civil_3_open_EP1",
+	"BAF_Offroad_D",
+	"BAF_Offroad_W",
+	"HMMWV_M998_crows_M2_DES_EP1",
+	"ATV_US_EP1",
+	"ATV_CZ_EP1",
+	"UAZ_Unarmed_TK_EP1",
+	"UAZ_Unarmed_TK_CIV_EP1",
+	"UAZ_Unarmed_UN_EP1",
+	"SUV_TK_CIV_EP1",
 	"HMMWV_DZ"
 ];
 
@@ -86,7 +96,7 @@ R3F_LOG_CFG_objets_remorquables = R3F_LOG_CFG_objets_remorquables +
 	"MH60S",
 	"HMMWV_M998_crows_M2_DES_EP1",
 	"Policecar",
-	"Mi171Sh_CZ_EP1"
+	"Mi171Sh_CZ_EP1",
 	"MH6J_DZ",
 	"AH6X_DZ"
 ];
