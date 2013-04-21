@@ -2040,16 +2040,16 @@ class Mission
 		class Item7
 		{
 			position[]={7712.534,0,2655.062};
-            name="Testing_Markers";
-            text="Waypoint test.";
+            name="welcomemsg";
+            text="Welcome to Lemons DayZ";
             type="waypoint";
 		};		
 		class Item8
 		{
 			position[]={7712.534,0,2660.062};
-            name="Testing_Markers";
-            text="dot test.";
-            type="Dot";
+            name="Testing_newMarkers";
+            text="objective test.";
+            type="hd_objective";
 		};			
 	};
 };

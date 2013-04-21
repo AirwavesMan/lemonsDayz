@@ -180,10 +180,10 @@ if (_randomSpot) then {
 	};
 	
 	//REALLY IMPORTANT VALUES
-	dayZ_instance2 = 762;					//The instance
-	_key = format["CHILD:999:UPDATE instance_deployable d LEFT JOIN (SELECT DISTINCT d.owner_id, s.unique_id FROM instance_deployable d LEFT JOIN survivor s ON s.id = d.owner_id WHERE s.is_dead =1 ) AS dead ON dead.owner_id = d.owner_id LEFT JOIN survivor live ON live.unique_id = dead.unique_id SET d.owner_id = live.id WHERE live.is_dead =0", dayZ_instance2];
-	_data = "HiveEXT" callExtension _key;
-	diag_log("SERVER: Updated Build ID's...");
+	//dayZ_instance2 = 762;					//The instance
+	//_key = format["CHILD:999:UPDATE instance_deployable d LEFT JOIN (SELECT DISTINCT d.owner_id, s.unique_id FROM instance_deployable d LEFT JOIN survivor s ON s.id = d.owner_id WHERE s.is_dead =1 ) AS dead ON dead.owner_id = d.owner_id LEFT JOIN survivor live ON live.unique_id = dead.unique_id SET d.owner_id = live.id WHERE live.is_dead =0", dayZ_instance2];
+	//_data = "HiveEXT" callExtension _key;
+	//diag_log("SERVER: Updated Build ID's...");
 	// SATCHEL	
 	
 	
