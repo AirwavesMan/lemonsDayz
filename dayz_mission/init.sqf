@@ -11,6 +11,20 @@ dayzHiveRequest = [];
 initialized = false;
 dayz_previousID = 0;
 
+
+// Satchel, trying to auto update the database.
+//Send the key
+// Waiting for a reply from 
+// http://opendayz.net/threads/sql-999-method.9596/
+//
+_key = format["CHILD:999:UPDATE instance_deployable d LEFT JOIN (SELECT DISTINCT d.owner_id, s.unique_id FROM instance_deployable d LEFT JOIN survivor s ON s.id = d.owner_id WHERE s.is_dead =1 ) AS dead ON dead.owner_id = d.owner_id LEFT JOIN survivor live ON live.unique_id = dead.unique_id SET d.owner_id = live.id WHERE live.is_dead =0", dayZ_instance];
+_data = "HiveEXT" callExtension _key;
+diag_log("SERVER: Updated Build ID's...");
+
+//
+// SATCHEL
+
+
 //disable greeting menu 
 player setVariable ["BIS_noCoreConversations", true];
 enableRadio false;					//disable radio messages to be heard and shown in the left lower corner of the screen
