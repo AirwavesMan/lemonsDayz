@@ -1993,7 +1993,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			position[]={7839.6055,381.33774,8414.7324};
@@ -2040,10 +2040,17 @@ class Mission
 		class Item7
 		{
 			position[]={7712.534,0,2655.062};
-            name="Testing Markers.";
+            name="Testing_Markers";
             text="Testing Markers.";
             markerType="hd_objective";
 		};		
+		class Item8
+		{
+			position[]={7712.534,0,2660.062};
+            name="Testing_Markers";
+            text="Testing Markers.";
+            markerType="Dot";
+		};			
 	};
 };
 class Intro

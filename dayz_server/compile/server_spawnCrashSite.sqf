@@ -215,6 +215,12 @@ while {true} do {
 			_crashwreck setfuel 0;
 			//satchel line bellow
 			//_crashwreck	MessageText = "<Taiph**...May**y.... Goi*g...... down near %2>";
+			
+			
+			//displaying where the crash took place.
+			_str = format["Were going down...<static> near <static> at %2!, ", _crashName, str(getPosATL _crashwreck)]);
+			[nil,nil,rHINT,_str] call RE;
+			
 			diag_log(format["CRASHSPAWNER: %1 just exploded at %2!, ", _crashName, str(getPosATL _crashwreck)]);
 
 			//She cant survive this :(
