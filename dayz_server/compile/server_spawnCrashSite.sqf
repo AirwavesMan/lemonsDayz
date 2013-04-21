@@ -217,9 +217,7 @@ while {true} do {
 			//_crashwreck	MessageText = "<Taiph**...May**y.... Goi*g...... down near %2>";
 			
 			
-			//displaying where the crash took place.
-			_str = (format["Were going down... near at %2", _crashName, str(getPosATL _crashwreck)]);
-			[nil,nil,rHINT,_str] call RE;
+			
 			
 			diag_log(format["CRASHSPAWNER: %1 just exploded at %2!, ", _crashName, str(getPosATL _crashwreck)]);
 
@@ -231,7 +229,14 @@ while {true} do {
 
 		//Get position of the helis wreck, but make sure its on the ground;
 		_pos = [getpos _crashwreck select 0, getpos _crashwreck select 1,0];
-
+		_posx= getpos _crashwreck select 0;
+		_posy= getpos _crashwreck select 1;
+		
+		//displaying where the crash took place.
+		_str = (format["Were going down... near at [ %1,%2 ]", _posx,-_posy]);
+		[nil,nil,rHINT,_str] call RE;
+		
+		
 		//saving the direction of the wreck(not used right now)
 		_dir = getdir _crashwreck; 
 
