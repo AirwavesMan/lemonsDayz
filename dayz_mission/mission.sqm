@@ -2064,7 +2064,7 @@ class Mission
 		class Item10
 		{
 			position[]={7230.0,0,1025.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers1";
             text="DO NOT";
 			colorName="ColorRed";
 			type="waypoint";
@@ -2072,7 +2072,7 @@ class Mission
 		class Item11
 		{
 			position[]={7230.0,0,1000.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers2";
             text="Never Blow up Base's and Vehicles";
 			colorName="ColorRed";
 			type="waypoint";
@@ -2080,7 +2080,7 @@ class Mission
 		class Item12
 		{
 			position[]={7230.0,0,975.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers3";
             text="Never hord more vehicles than allowed.";
 			colorName="ColorRed";
 			type="waypoint";
@@ -2088,7 +2088,7 @@ class Mission
 		class Item13
 		{
 			position[]={7230.0,0,950.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers4";
             text="never take it all";
 			colorName="ColorRed";
 			type="waypoint";
@@ -2096,7 +2096,7 @@ class Mission
 		class Item14
 		{
 			position[]={7230.0,0,925.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers5";
             text="never steal them all";
 			colorName="ColorRed";
 			type="waypoint";
@@ -2104,7 +2104,7 @@ class Mission
 		class Item15
 		{
 			position[]={7230.0,0,900.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers6";
             text="never flatten tents";
 			colorName="ColorRed";
 			type="waypoint";
@@ -2113,7 +2113,7 @@ class Mission
 		class Item16
 		{
 			position[]={7330.0,0,1025.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers7";
             text="DO";
 			colorName="ColorGreen";
 			type="waypoint";
@@ -2121,7 +2121,7 @@ class Mission
 		class Item17
 		{
 			position[]={7360.0,0,1000.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers8";
             text="TAKE ONLY WHAT YOU CAN CARY OR DRIVE/FLY";
 			colorName="ColorGreen";
 			type="waypoint";
@@ -2129,7 +2129,7 @@ class Mission
 		class Item18
 		{
 			position[]={7360.0,0,975.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers9";
             text="Steal cars. =)";
 			colorName="ColorGreen";
 			type="waypoint";
@@ -2137,7 +2137,7 @@ class Mission
 		class Item19
 		{
 			position[]={7360.0,0,950.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers10";
             text="Steal loot. =)";
 			colorName="ColorGreen";
 			type="waypoint";
@@ -2145,7 +2145,7 @@ class Mission
 		class Item20
 		{
 			position[]={7360.0,0,925.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers11";
             text="Steal Choppers =)";
 			colorName="ColorGreen";
 			type="waypoint";
@@ -2153,7 +2153,7 @@ class Mission
 		class Item21
 		{
 			position[]={7360.0,0,900.0};
-            name="cars_rules_markers";
+            name="cars_rules_markers12";
             text="If you say Friendly, be Friendly";
 			colorName="ColorGreen";
 			type="waypoint";

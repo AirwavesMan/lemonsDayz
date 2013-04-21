@@ -229,11 +229,11 @@ while {true} do {
 
 		//Get position of the helis wreck, but make sure its on the ground;
 		_pos = [getpos _crashwreck select 0, getpos _crashwreck select 1,0];
-		_posx= getpos _crashwreck select 0;
-		_posy= getpos _crashwreck select 1;
-		
+			
 		//displaying where the crash took place.
-		_str = (format["Were going down... near at [ %1,%2 ]", _posx,-_posy]);
+		//_str = (format["Were going down... near at [ %1,%2 ]", _posx,-_posy]);
+		_str = (format["Were going down... near at [ %2 ]", _crashName, str(getPosATL _crashwreck);
+		
 		[nil,nil,rHINT,_str] call RE;
 		
 		
