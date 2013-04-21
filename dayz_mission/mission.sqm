@@ -1993,7 +1993,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=7;
+		items=8;
 		class Item0
 		{
 			position[]={7839.6055,381.33774,8414.7324};
@@ -2036,6 +2036,14 @@ class Mission
 			name="spawn4";
 			type="Empty";
 		};
+		//satchel all bellow.
+		class Item7
+		{
+			position[]={7712.534,0,2655.062};
+            name="Testing Markers.";
+            text="Testing Markers.";
+            markerType="Dot";
+		};		
 	};
 };
 class Intro
