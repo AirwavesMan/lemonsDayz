@@ -18,7 +18,7 @@ private ["_timeLeft", "_totalSleepTime","_i","_bloodAmount","_sleepCooldown","_s
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-// Config Area Start																				//
+// Config Area Start																				//LEMON WIN WIN WIN WIN WIN WIN
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // This script in its current state is set up perfectly for 45 seconds changing it can yield some wierd results!
