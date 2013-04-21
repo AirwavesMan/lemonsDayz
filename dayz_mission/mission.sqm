@@ -2042,7 +2042,7 @@ class Mission
 			position[]={7712.534,0,2655.062};
             name="Testing Markers.";
             text="Testing Markers.";
-            markerType="Dot";
+            markerType="hd_objective";
 		};		
 	};
 };
