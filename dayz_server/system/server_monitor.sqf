@@ -293,4 +293,4 @@ if (isDedicated) then {
 allowConnection = true;
 
 // [_guaranteedLoot, _randomizedLoot, _frequency, _variance, _spawnChance, _spawnMarker, _spawnRadius, _spawnFire, _fadeFire]
-nul = [4, 4, (50 * 20), (15 * 30), 0.95, 'center', 4000, true, false] spawn server_spawnCrashSite;
+nul = [4, 4, (5*60), (15*40), 0.95, 'center', 4000, true, false] spawn server_spawnCrashSite;
