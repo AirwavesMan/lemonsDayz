@@ -1993,7 +1993,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=9;
+		items=11;
 		class Item0
 		{
 			position[]={7839.6055,381.33774,8414.7324};
@@ -2046,11 +2046,29 @@ class Mission
 		};		
 		class Item8
 		{
-			position[]={7712.534,0,2660.062};
-            name="Testing_newMarkers";
-            text="objective test.";
-            type="hd_objective";
-		};			
+			position[]={7200.0,0,2000.0};
+            name="rules_markers";
+            text="Rules";
+            //type="hd_objective";
+			colorName="ColorRed";
+			type="waypoint";
+		};	
+		class Item9
+		{
+			position[]={7230.0,0,2030.0};
+            name="cars_rules_markers";
+            text="4 Cars,1 Ural, 1 Chopper per base, per player";
+			colorName="ColorRed";
+			type="waypoint";
+		};		
+		class Item10
+		{
+			position[]={7230.0,0,2060.0};
+            name="cars_rules_markers";
+            text="Testing line spacing";
+			colorName="ColorGreen";
+			type="waypoint";
+		};				
 	};
 };
 class Intro

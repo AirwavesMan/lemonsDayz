@@ -218,7 +218,7 @@ while {true} do {
 			
 			
 			//displaying where the crash took place.
-			_str = format["Were going down...<static> near <static> at %2!, ", _crashName, str(getPosATL _crashwreck)]);
+			_str = (format["Were going down... near at %2", _crashName, str(getPosATL _crashwreck)]);
 			[nil,nil,rHINT,_str] call RE;
 			
 			diag_log(format["CRASHSPAWNER: %1 just exploded at %2!, ", _crashName, str(getPosATL _crashwreck)]);
