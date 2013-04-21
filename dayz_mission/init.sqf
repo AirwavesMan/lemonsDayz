@@ -72,7 +72,7 @@ axe_server_lampObjs =    compile preprocessFileLineNumbers "lights\fnc_returnLam
 };
 
 if (!isDedicated) then {
-	//StreetLightslemon
+	//StreetLightslemonswin
 	[] execVM "lights\street_lights.sqf";
 	[] execVM "Scripts\kh_actions.sqf";
 	//Conduct map operations
