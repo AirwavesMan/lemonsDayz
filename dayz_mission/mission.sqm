@@ -1993,7 +1993,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=8;
+		items=22;
 		class Item0
 		{
 			position[]={7839.6055,381.33774,8414.7324};
@@ -2039,11 +2039,125 @@ class Mission
 		//satchel all bellow.
 		class Item7
 		{
-			position[]={7712.534,0,2655.062};
+			position[]={7312.534,0,2655.062};
             name="welcomemsg";
             text="Welcome to Lemons DayZ";
             type="waypoint";
+		};
+		class Item8
+		{
+			position[]={7200.0,0,2000.0};
+            name="rules_markers";
+            text="Rules. Zoom in to Read";
+            colorName="ColorRed";
+			type="waypoint";
 		};	
+		class Item9
+		{
+			position[]={7230.0,0,1950.0};
+            name="cars_rules_markers";
+            text="4 Cars,1 Ural, 1 Chopper per base, per player";
+			colorName="ColorGreen";
+			type="waypoint";
+		};		
+		//********************************************************************* DO NOT
+		class Item10
+		{
+			position[]={7230.0,0,1925.0};
+            name="cars_rules_markers1";
+            text="DO NOT";
+			colorName="ColorRed";
+			type="waypoint";
+		};				
+		class Item11
+		{
+			position[]={7230.0,0,1900.0};
+            name="cars_rules_markers2";
+            text="Never Blow up Base's and Vehicles";
+			colorName="ColorRed";
+			type="waypoint";
+		};
+		class Item12
+		{
+			position[]={7230.0,0,1875.0};
+            name="cars_rules_markers3";
+            text="Never hord more vehicles than allowed.";
+			colorName="ColorRed";
+			type="waypoint";
+		};
+		class Item13
+		{
+			position[]={7230.0,0,1850.0};
+            name="cars_rules_markers4";
+            text="never take it all";
+			colorName="ColorRed";
+			type="waypoint";
+		};
+		class Item14
+		{
+			position[]={7230.0,0,1825.0};
+            name="cars_rules_markers5";
+            text="never steal them all";
+			colorName="ColorRed";
+			type="waypoint";
+		};
+		class Item15
+		{
+			position[]={7230.0,0,1800.0};
+            name="cars_rules_markers6";
+            text="never flatten tents";
+			colorName="ColorRed";
+			type="waypoint";
+		};
+		//*********************************************************************do
+		class Item16
+		{
+			position[]={7330.0,0,1925.0};
+            name="cars_rules_markers7";
+            text="DO";
+			colorName="ColorGreen";
+			type="waypoint";
+		};				
+		class Item17
+		{
+			position[]={7360.0,0,1900.0};
+            name="cars_rules_markers8";
+            text="TAKE ONLY WHAT YOU CAN CARY OR DRIVE/FLY";
+			colorName="ColorGreen";
+			type="waypoint";
+		};
+		class Item18
+		{
+			position[]={7360.0,0,1875.0};
+            name="cars_rules_markers9";
+            text="Steal cars.  ";
+			colorName="ColorGreen";
+			type="waypoint";
+		};
+		class Item19
+		{
+			position[]={7360.0,0,1850.0};
+            name="cars_rules_markers10";
+            text="Steal loot.  ";
+			colorName="ColorGreen";
+			type="waypoint";
+		};
+		class Item20
+		{
+			position[]={7360.0,0,1825.0};
+            name="cars_rules_markers11";
+            text="Steal Choppers  ";
+			colorName="ColorGreen";
+			type="waypoint";
+		};
+		class Item21
+		{
+			position[]={7360.0,0,1800.0};
+            name="cars_rules_markers12";
+            text="If you say Friendly, be Friendly";
+			colorName="ColorGreen";
+			type="waypoint";
+		};		
 	};
 };
 class Intro
