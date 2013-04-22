@@ -599,7 +599,8 @@ while {true} do {
 			//_pos = [getpos _crashwreck select 0, getpos _crashwreck select 1,0];
 			_satchels_x = getpos _crashwreck select 0;
 			_satchels_y = getpos _crashwreck select 1;
-			_str = (format["Were going down... near at [ %1,%2 ]!", _satchels_x, (14000-_satchels_y)]);
+			//trying 12k rather than 14k
+			_str = (format["Were going down... near at [ %1,%2 ]!", _satchels_x, (12000-_satchels_y)]);
 			[nil,nil,rHINT,_str] call RE;
 			
 			diag_log(format["CRASHSPAWNER: %1 just exploded at %2!, ", _crashName, str(getPosATL _crashwreck)]);

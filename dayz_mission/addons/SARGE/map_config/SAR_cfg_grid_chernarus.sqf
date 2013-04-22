@@ -23,10 +23,10 @@ _startx=2500;
 _starty=2800;
 
 // gridsize x (how many single squares in the grid) for the x-axis
-_gridsize_x=6;
+_gridsize_x=3;
 
 // gridsize y (how many single squares in the grid) for the y-axis
-_gridsize_y=6;
+_gridsize_y=3;
 
 // distance from the center of one square of the grid to the border of that square. so overall size of a square in the grid is 2x gridwidth / 2x gridwidth
-_gridwidth = 1000;
+_gridwidth = 4000;

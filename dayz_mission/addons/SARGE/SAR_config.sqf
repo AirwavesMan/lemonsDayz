@@ -33,12 +33,12 @@ SAR_max_grps_survivors = 0;
 // chance for a group to spawn (1-100)
 SAR_chance_bandits = 3;
 SAR_chance_soldiers = 3;
-SAR_chance_survivors = 2;
+SAR_chance_survivors = 0;
 
 // maximum size of group (including Leader)
-SAR_max_grpsize_bandits = 5;
-SAR_max_grpsize_soldiers = 4;
-SAR_max_grpsize_survivors = 3;
+SAR_max_grpsize_bandits = 2;
+SAR_max_grpsize_soldiers = 2;
+SAR_max_grpsize_survivors = 2;
 
 
 // -----------------------------------------------
@@ -61,13 +61,13 @@ SAR_AI_STEAL_VEHICLE = false;
 // -----------------------------------------------
 
 // Humanity Value that gets substracted for a survivor or soldier AI kill
-SAR_surv_kill_value = 250;
+SAR_surv_kill_value = 50;
 
 // Humanity Value that gets ADDED for a bandit AI kill
-SAR_band_kill_value = 50;
+SAR_band_kill_value = 100;
 
 // the humanity value below which a player will be considered hostile
-SAR_HUMANITY_HOSTILE_LIMIT = -2500;
+SAR_HUMANITY_HOSTILE_LIMIT = -1;
 
 // -----------------------------------------------
 // Track and show AI kills in the debug monitor of the player 
@@ -106,7 +106,7 @@ SAR_DELETE_TIMEOUT = 800; // 2 minutes
 // -----------------------------------------------
 
 // the max range within AI is detecting Zombies and player bandits and makes them hostile - the bigger this value, the more CPU needed
-SAR_DETECT_HOSTILE = 250;
+SAR_DETECT_HOSTILE = 150;
 
 // the interval in seconds that an AI scans for new hostiles. The lower this value, the more accurate, but your server will see an impact. Recommended value: 15 
 SAR_DETECT_INTERVAL = 15;

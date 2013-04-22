@@ -27,7 +27,7 @@ dayz_previousID = 0;
 
 //disable greeting menu 
 player setVariable ["BIS_noCoreConversations", true];
-enableRadio false;					//disable radio messages to be heard and shown in the left lower corner of the screen
+//enableRadio false;					//disable radio messages to be heard and shown in the left lower corner of the screen
 
 //Load in compiled functions
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
