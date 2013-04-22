@@ -10,9 +10,9 @@ if (_action == "pickup") then
 	{
 	_allCargo = nearestObjects [_carrier, ["car","motorcycle","bicycle"],15];
 	_airCargo = _allCargo select 0;
-	if ((count _allCargo == 0) || (getPosATL _carrier select 2 > 12) || (speed _carrier >= 3)) exitWith 
+	if ((count _allCargo == 0) || (getPosATL _carrier select 2 > 4) || (speed _carrier >= 10)) exitWith 
 		{
-		if (speed _carrier >= 3) then
+		if (speed _carrier >= 10) then
 			{
 			_txt = parseText "<img image='addin\fx\heli.paa' align='center' size='4'/><br/><img image='addin\fx\noCargo.paa' align='center' size='4'/><br/><t color='#cecece' align='center'>Speed is to high</t>";
 			[nil, _player, "loc", rHINT, _txt, "PLAIN DOWN"] call RE;
@@ -23,7 +23,7 @@ if (_action == "pickup") then
 			[nil, _player, "loc", rHINT, _txt, "PLAIN DOWN"] call RE;
 			};
 		};
-	if (getPosATL _carrier select 2 < 4) exitWith 
+	if (getPosATL _carrier select 2 < 2) exitWith 
 		{
 		_txt = parseText "<img image='addin\fx\heli.paa' align='center' size='4'/><br/><img image='addin\fx\lowCargo.paa' align='center' size='4'/><br/><t color='#cecece' align='center'>To low to attach cargo</t>";
 		[nil, _player, "loc", rHINT, _txt, "PLAIN DOWN"] call RE;

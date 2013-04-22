@@ -1993,7 +1993,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=22;
+		items=23;
 		class Item0
 		{
 			position[]={7839.6055,381.33774,8414.7324};
@@ -2039,7 +2039,7 @@ class Mission
 		//satchel all bellow.
 		class Item7
 		{
-			position[]={7312.534,0,2655.062};
+			position[]={7342.534,0,2255.062};
             name="welcomemsg";
             text="Welcome to Lemons DayZ";
             type="waypoint";
@@ -2112,7 +2112,7 @@ class Mission
 		//*********************************************************************do
 		class Item16
 		{
-			position[]={7330.0,0,1925.0};
+			position[]={7450.0,0,1925.0};
             name="cars_rules_markers7";
             text="DO";
 			colorName="ColorGreen";
@@ -2120,7 +2120,7 @@ class Mission
 		};				
 		class Item17
 		{
-			position[]={7360.0,0,1900.0};
+			position[]={7450.0,0,1900.0};
             name="cars_rules_markers8";
             text="TAKE ONLY WHAT YOU CAN CARY OR DRIVE/FLY";
 			colorName="ColorGreen";
@@ -2128,7 +2128,7 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={7360.0,0,1875.0};
+			position[]={7450.0,0,1875.0};
             name="cars_rules_markers9";
             text="Steal cars.  ";
 			colorName="ColorGreen";
@@ -2136,7 +2136,7 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={7360.0,0,1850.0};
+			position[]={7450.0,0,1850.0};
             name="cars_rules_markers10";
             text="Steal loot.  ";
 			colorName="ColorGreen";
@@ -2144,7 +2144,7 @@ class Mission
 		};
 		class Item20
 		{
-			position[]={7360.0,0,1825.0};
+			position[]={7450.0,0,1825.0};
             name="cars_rules_markers11";
             text="Steal Choppers  ";
 			colorName="ColorGreen";
@@ -2152,9 +2152,18 @@ class Mission
 		};
 		class Item21
 		{
-			position[]={7360.0,0,1800.0};
+			position[]={7450.0,0,1800.0};
             name="cars_rules_markers12";
             text="If you say Friendly, be Friendly";
+			colorName="ColorGreen";
+			type="waypoint";
+		};
+		//********************************************************************* TS Details.
+		class Item22
+		{
+			position[]={7342.534,0,2200.062};
+            name="tsdetails";
+            text="TeamSpeak 3 [ 85.236.100.85:19167 ] ";
 			colorName="ColorGreen";
 			type="waypoint";
 		};		
