@@ -1,3 +1,6 @@
+//use a static heli crash point.
+_useStatic = True;
+
 []execVM "\z\addons\dayz_server\system\s_fps.sqf"; //server monitor FPS (writes each ~181s diag_fps+181s diag_fpsmin*)
 
 dayz_versionNo = 		getText(configFile >> "CfgMods" >> "DayZ" >> "version");

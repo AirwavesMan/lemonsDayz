@@ -107,16 +107,7 @@ class FSM
           condition=/*%FSM<CONDITION""">*/"(_numDead > 300)"/*%FSM</CONDITION""">*/;
           action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
         };
-        /*%FSM</LINK>*/
-        /*%FSM<LINK "time_sync">*/
-        class time_sync
-        {
-          priority = 1.000000;
-          to="sync_the_time";
-          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
-          condition=/*%FSM<CONDITION""">*/"((time - _lastUpdate) > 300)"/*%FSM</CONDITION""">*/;
-          action=/*%FSM<ACTION""">*/"_lastUpdate = time;"/*%FSM</ACTION""">*/;
-        };
+        
         /*%FSM</LINK>*/
         /*%FSM<LINK "need_update">*/
         class need_update
@@ -294,7 +285,7 @@ class FSM
        "_result = _key call server_hiveReadWrite;" \n
        "_outcome = _result select 0;" \n
        "if(_outcome == ""PASS"") then {" \n
-       "	_date = _result select 1; " \n
+       "    _date = [2012,8,31,(_result select 1) select 3, (_result select 1) select 4]; " \n
        "	_dateNum = dateToNumber(_date); " \n
        "	_diff = ( _dateNum - dateToNumber (date) )*365*24*60;" \n
        "	if ( abs(_diff)>5 ) then {" \n

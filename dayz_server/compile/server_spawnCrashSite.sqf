@@ -24,6 +24,9 @@ if(count _this > 9) then {
 	_useStatic = false;
 };
 
+//temp value. might crash if not enough elements in the array
+_useStatic = true;
+
 if(count _this > 10) then {
 	_preWaypoints	= _this select 10;
 } else {
@@ -106,6 +109,7 @@ while {true} do {
 */
 
 		_staticcoords =	[
+							[2377.43,5297.54],
 							[4590.08,9730.84],
 							[4146.13,6642.86],
 							[7174.14,9347.83],
@@ -600,7 +604,7 @@ while {true} do {
 			_satchels_x = getpos _crashwreck select 0;
 			_satchels_y = getpos _crashwreck select 1;
 			//trying 12k rather than 14k
-			_str = (format["Were going down... near at [ %1,%2 ]!", _satchels_x, (12000-_satchels_y)]);
+			_str = (format["Were going down... near at [ %1,%2 ]!", _satchels_x, (15000-_satchels_y)]);
 			[nil,nil,rHINT,_str] call RE;
 			
 			diag_log(format["CRASHSPAWNER: %1 just exploded at %2!, ", _crashName, str(getPosATL _crashwreck)]);

@@ -98,3 +98,4 @@ execVM "R3F_ARTY_AND_LOG\init.sqf"
 call compile preprocessfile "addons\SHK_pos\shk_pos_init.sqf";
 // run SAR_AI
 [] execVM "addons\SARGE\SAR_AI_init.sqf";
+[5,true,10,1,true,7] execFSM "Dayz_time\core_time.fsm";
