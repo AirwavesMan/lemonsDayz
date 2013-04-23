@@ -42,7 +42,7 @@ if (_action == "drop") then
 	_airCargo = _actionArray select 1;
 	_airCable = _actionArray select 2;
 
-	if (position _airCargo select 2 > 15) exitWith 
+	if (position _airCargo select 2 > 400) exitWith // lol its logical you could drop soemthing from higher up. BOMB ?
 		{
 		_txt = parseText "<img image='addin\fx\heli.paa' align='center' size='4'/><br/><img image='addin\fx\highCargo.paa' align='center' size='4'/><br/><t color='#cecece' align='center'>To high to drop cargo</t>";
 		[nil, _player, "loc", rHINT, _txt, "PLAIN DOWN"] call RE;

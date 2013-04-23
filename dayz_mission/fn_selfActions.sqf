@@ -262,7 +262,17 @@ if (!isNull cursorTarget and !_inVehicle and (player distance cursorTarget < 4))
 		player removeAction s_player_boil;
 		s_player_boil = -1;
 	};
-	
+	// ------------------------------------------------------------------------Piggd Smelt Scrap Metal Start------------------------------------------------------------------------
+	if (inflamed cursorTarget and _hasToolbox and _canDo) then {
+			if (s_player_smelt < 0) then {
+				s_player_smelt = player addAction[("<t color=""    #FF9999"">" + ("Smelt Scrap Metal") +"</t>"),"Scripts\smelt.sqf",cursorTarget, 3 ,true, true,"", ""];
+			};
+		} else {
+			player removeAction s_player_smelt;
+			s_player_smelt = -1;
+		};
+	// ------------------------------------------------------------------------Piggd Smelt Scrap Metal Start------------------------------------------------------------------------
+		
 	if(cursorTarget == dayz_hasFire and _canDo) then {
 		if ((s_player_fireout < 0) and !(inflamed cursorTarget) and (player distance cursorTarget < 3)) then {
 			s_player_fireout = player addAction [localize "str_actions_self_06", "\z\addons\dayz_code\actions\fire_pack.sqf",cursorTarget, 0, false, true, "",""];
@@ -510,6 +520,9 @@ s_player_removeActions set [count s_player_removeActions,_handle];
 	s_player_cook = -1;
 	player removeAction s_player_boil;
 	s_player_boil = -1;
+// ------------------------------------------------------------------------Piggd Smelt Scrap Metal Start------------------------------------------------------------------------
+    s_player_smelt =        -1;
+// ------------------------------------------------------------------------Piggd Smelt Scrap Metal End----------------------------------------------------------------------	
 	player removeAction s_player_fireout;
 	s_player_fireout = -1;
 	player removeAction s_player_packtent;

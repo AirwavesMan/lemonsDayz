@@ -1,4 +1,4 @@
-private ["_characterID","_doLoop","_playerID","_playerObj","_randomSpot","_primary","_key","_worldspace","_score","_position","_pos","_isIsland","_medical","_stats","_state","_dummy","_debug","_distance","_hit","_fractures","_w","_findSpot","_humanity","_clientID"];//Set Variables
+private ["_characterID","_doLoop","_playerID","_playerObj","_randomSpot","_primary","_key","_worldspace","_score","_position","_pos","_isIsland","_medical","_stats","_state","_dummy","_debug","_distance","_hit","_fractures","_w","_findSpot","_humanity","_clientID","_friendlies"];//Set Variables
 //Wait for HIVE to be free
 //diag_log ("SETUP: attempted with " + str(_this));
 
@@ -71,6 +71,7 @@ _stats =		_primary select 2;
 _state =		_primary select 3;
 _worldspace = 	_primary select 4;
 _humanity =		_primary select 5;
+_friendlies =  [];
 
 //Set position
 _randomSpot = false;
@@ -246,6 +247,7 @@ _playerObj setVariable["humanity_CHK",_humanity];
 //_playerObj setVariable["worldspace",_worldspace,true];
 //_playerObj setVariable["state",_state,true];
 _playerObj setVariable["lastPos",getPosATL _playerObj];
+_playerObj setVariable["friendlies",_friendlies,true];
 
 dayzPlayerLogin2 = [_worldspace,_state];
 _clientID = owner _playerObj;

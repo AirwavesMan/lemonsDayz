@@ -273,7 +273,7 @@ if (_status == "CustomStreamStart") then {
 	_result = _key call server_hiveReadWrite;
 	_outcome = _result select 0;
 	if(_outcome == "PASS") then {
-		_date = _result select 1; 
+		_date = [2012,8,31,(_result select 1) select 3, (_result select 1) select 4];//_date = _result select 1; 
 		if(isDedicated) then {
 			//["dayzSetDate",_date] call broadcastRpcCallAll;
 			setDate _date;
